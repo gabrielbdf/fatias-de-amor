@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && firebase deploy",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -18,7 +18,9 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "firebase": "^10.8.0",
     "rxjs": "~7.8.0",
+    "swiper": "^11.0.6",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
   },
